@@ -1,0 +1,30 @@
+﻿@model Crud_AspNetCore.Models.AddEmployeeViewModel
+
+@{
+}
+
+<h2>Adicionar empregado</h2>
+<form method="post" action="Add" class="mt-5">
+  <div class="mb-3">
+    <label for="" class="form-label">Nome</label>
+    <input type="text" class="form-control" asp-for="Name">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">E-mail</label>
+    <input type="email" class="form-control" asp-for="Email">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Salário</label>
+    <input type="number" class="form-control" asp-for="Salary">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Data de nascimento</label>
+    <input type="date" class="form-control" asp-for="DateOfBirth">
+  </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Departamento</label>
+        <input type="text" class="form-control" asp-for="Department">
+    </div>
+
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

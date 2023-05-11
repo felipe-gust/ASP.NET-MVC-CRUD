@@ -1,0 +1,33 @@
+@model Crud_AspNetCore.Models.UpdateEmployeeViewModel
+
+<h2>Editar empregado</h2>
+<form method="post" action="View" class="mt-5">
+  <div class="mb-3">
+    <label for="" class="form-label">Id</label>
+    <input type="number" class="form-control" asp-for="Id" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Nome</label>
+    <input type="text" class="form-control" asp-for="Name">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">E-mail</label>
+    <input type="email" class="form-control" asp-for="Email">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Salário</label>
+    <input type="number" class="form-control" asp-for="Salary">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Data de nascimento</label>
+    <input type="date" class="form-control" asp-for="DateOfBirth">
+  </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Departamento</label>
+      <input type="text" class="form-control" asp-for="Department">
+    </div>
+
+  <button type="submit" class="btn btn-primary">Enviar</button>
+
+  <button type="submit" class="btn btn-danger" asp-action="Deletar" asp-controller="Employees">Deletar</button>
+</form>
