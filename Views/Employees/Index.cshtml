@@ -1,9 +1,11 @@
 @model List<Crud_AspNetCore.Models.Domain.Employee>
 
 @{
+    ViewData["Title"] = "Lista funcionários";
 }
 
 <h2>Empregados</h2>
+<br>
 
 <table class="table">
     <thead>
@@ -27,7 +29,7 @@
                 <td>@employee.Salary</td>
                 <td>@employee.DateOfBirth.ToString("dd/MM/yyyy")</td>
                 <td>@employee.Department</td>
-                <td><a href="Employees/View/@employee.Id">Visualizar</a></td>
+                <td><a href="Employees/View/@employee.Id">Editar</a></td>
             </tr>
         }
     </tbody>
