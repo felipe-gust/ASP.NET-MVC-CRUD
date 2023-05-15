@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
+# Índice
+
+* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+
+
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-<h1 align="center">Site para cadastro de empregados com ASP.NET</h1>
+<h1>Site para cadastro de empregados com ASP.NET</h1>
 Site de cadastro de empregados com CRUD(Create, Read, Update, Delete) no padrão MVC. Linguagem C# com ASP.NET, Entity Framework Core e SQL Server como banco de dados.
 
 <hr>
 
-<h1 align="center">:hammer: Funcionalidades da aplicação</h1>
+<h1>:hammer: Funcionalidades da aplicação</h1>
 
-- `Funcionalidade 1`: Cadastrar funcionário
-- `Funcionalidade 2`: Atualizar
+- `Função 1 - Cadastrar funcionário`: ao clicar em "Adicionar empregados" na página inicial, você será direcionado para a página onde preencherá os dados do empregado e ao clicar em 'Cadastrar' será adicionado o novo empregado;
+- `Função 2 - Atualizar dados`: Caso necessário atualizar algum dado do funcionário, na página dos empregados cadastrados, na frente do funcionário que deseja atualizar clique em 'Editar' e alterar os dados e 'Enviar';
+- `Função 3 - Excluir`: Para exclusão, siga o mesmo passo da Função 2 e clique em 'Excluir'.
+
+<hr>
+
+<h1>Tecnologias utilizadas</h1>
